@@ -148,10 +148,10 @@ To Undo the commit and delete the file content as well
 
 #### To restores the most recently stashed files
 	git stash pop // This command will delete the entry from stash list
-![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/23.png)
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/24.png)
 
 	git stash apply // This command will not delete the entry from stash list
-![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/24.png)
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/23.png)
 
 #### To restores the specific stashed files
 	git stash pop stash@{indexNumber}
