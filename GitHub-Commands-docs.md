@@ -137,37 +137,35 @@ To Undo the commit and delete the file content as well
 ### git stash
 **Note:** Pre-requisite: At least one commit should exist
 
-To store all the modified tracked files temporarily
-
+#### To store all the tracked / untracked changes file temporarily
 	git stash
 	git stash save stashMessageInQuotes // The only difference between these two commands is with second one we can stash changes with message while first one we cannot	
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/21.png)
 
-To get all the lists of stashed changesets
-
+#### To get all the lists of stashed changesets
 	git stash list
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/22.png)
 
-To restores the most recently stashed files
-
+#### To restores the most recently stashed files
 	git stash pop // This command will delete the entry from stash list
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/23.png)
+
 	git stash apply // This command will not delete the entry from stash list
+![](https://github.com/sakshamvarshney/Github-Commands-Docs/blob/master/Screenshots/24.png)
 
-To restores the specific stashed files
-
+#### To restores the specific stashed files
 	git stash pop stash@{indexNumber}
 	git stash apply stash@{indexNumber}
 
-To compare the stash changes from HEAD pointed commit
-
+#### To compare the stash changes from HEAD pointed commit
 	git stash show -p // It will compare the most recent stash changes with HEAD pointed commit
 	git stash show -p stash@{indexNumber} // It will compare the specific stash changes with HEAD pointed commit
 
-To delete the stashed changes from stash list
-
+#### To delete the stashed changes from stash list
 	git stash drop // It will delete the most recent stashed changeset
 	git stash drop stash@{indexNumber} // It will delete the specific stashed changeset
 
-To delete all the stashed changes from the stash list at once
-
+#### To delete all the stashed changes from the stash list at once
 	git stash clear
 
 ---
