@@ -1,5 +1,5 @@
 # Github Commands Docs
-**@auther: Saksham Varshney**
+**@author: Saksham Varshney**
 
 ### Description: This repository contains the documentation of GitHub commands
 
